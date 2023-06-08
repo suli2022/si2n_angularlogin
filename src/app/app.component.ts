@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'login';
+  user!: string;
+  pass!: string;
+
+  login(){
+    console.log(this.user)
+    console.log(this.pass)
+  }
 }
